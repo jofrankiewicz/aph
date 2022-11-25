@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akademia Partnerów Handlowych</title>
+    <meta name='robots' content='noindex,follow'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <script type="text/javascript" src="http://dev.akademiapartnerowhandlowych.pl/js/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="http://dev.akademiapartnerowhandlowych.pl/css/bootstrap.min.css">
+    <script src="http://dev.akademiapartnerowhandlowych.pl/js/bootstrap.min.js"></script>
+
+
+    <link rel='stylesheet' href='http://dev.akademiapartnerowhandlowych.pl/css/logowanie.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='sncodelab-css' href='http://dev.akademiapartnerowhandlowych.pl/css/style.css' type='text/css' media='all'/>
+
+    
+</head>
+<body class="home page-template-default page page-id-2 front-page">
+<style>
+    nav .navbar-brand img{
+        max-width: 80px;
+    }
+    .sn-nav{
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        background: #000000a1;
+    }
+    .nav-link:focus, .nav-link:hover {
+      color: #00007c;
+    }
+    .sn-nav a{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .sn-nav li{
+        border-right: 1px solid #ffffff4f;
+    }
+    .nav-link.disabled {
+      color: #ffffff70;
+      pointer-events: none;
+      cursor: default;
+    }
+    .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+} 
+</style>
+<nav class="navbar navbar-expand-lg sn-nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="http://dev.akademiapartnerowhandlowych.pl/"><img style="max-width: 265px" src="http://dev.akademiapartnerowhandlowych.pl/img/logo.png" /></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"> <a class="nav-link" href="http://dev.akademiapartnerowhandlowych.pl/#sekcjaInformacje">Informacje organizacyjne</a> </li>
+                <li class="nav-item" style="border-right: 0;"> <a class="nav-link" href="http://dev.akademiapartnerowhandlowych.pl/#sekcjaAgenda">Agenda</a></li>
+
+            </ul>
+            <ul class="navbar-nav d-flex">
+                <li class="nav-item"> <a class="nav-link" href="#"><i class="fas fa-user"></i> testibm</a> </li>
+                <li class="nav-item" style="border-right: 0;"> <a class="nav-link" href="http://dev.akademiapartnerowhandlowych.pl/login.php?wylogowanie=tak"><i class="fas fa-sign-out-alt"></i> Wyloguj </a></li>
+
+            </ul>
+            =
+        </div>
+    </div>
+</nav>
+    <div id="page" class="hfeed site">
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                <style>
+.fullbg{
+ background-image: url("img/banerblank.jpg");
+background-position: center center;
+height: 610px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-color: #001534;
+}
+    .sekcjaTop{
+         height: 610px;
+  top: 0;
+  margin-bottom: 0;
+    }
+    .logo-main{
+text-align: left;
+position: relative;
+top: 25vh;
+    }
+    .logo-main img{
+max-width: 400px;
+margin: auto;
+width: 80%;
+    }
+    .sekcjaTop .przywitanie{
+        left: 0;top: 70vh;position: absolute;width: 100%;background:#000000c7;
+    }
+    .sekcjaTop .przywitanieTekst{
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: 2px;
+        text-align: center;
+        color: white;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .przywitanieOsoba{
+        letter-spacing: .326em;
+        text-transform: uppercase;
+        font-size: 31px;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+</style>
+<section class="sekcjaTop">
+    <div class="fullbg">
+        <div class="container">
+            <div class="logo-main"> 
+                <img src="img/napis.png" /> 
+            </div>
+            
+        <!-- .container --> 
+    </div>
+</section><style>
+    .sekcjaInformacje{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sekcjaInformacje .naglowekSekcji{
+        color: #001534;
+        letter-spacing: 0;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: .326em;
+        text-transform: uppercase;
+        font-size: 21px;
+    }
+    .sekcjaInformacje .opisSekcji{
+        text-align: center;
+        font-size: 15px;
+    }
+    .sekcjaInformacje .separator span, .sekcjaInformacje .separator i{
+        color:#001534;
+    }
+    .sekcjaInformacje .separator{
+        text-align: center;
+    }
+    .nazwaPodsekcji{
+        text-align: center;
+        color: #001534;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .trescPodsekcji{
+        text-align: center;
+        font-size: 14px;
+    }
+    .planOperacyjny{
+        font-size: 18px;
+    }
+    .planOperacyjny .liczba{
+        font-size: 25px;
+        font-weight: bold;
+        color: #001534;
+    }
+</style>
+<section class="sekcjaInformacje" id="sekcjaInformacje">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-12">
+                <h2 class="naglowekSekcji">Informacje organizacyjne</h2>
+                <div class="separator"><span><i class="fa fa-circle"></i></span> </div>
+            </div>
+        </div>
+        <div class="row">
+            <div style="padding: 20px;" class="col-md-4">
+                <h2 class="nazwaPodsekcji"><i class="fas fa-map-marker-alt"></i> Gdzie?</h2>
+                <p class="trescPodsekcji"> 
+                    Restauracja STIXX<br/>
+                    Plac Europejski 4a<br/>
+                    Warszawa<br/>
+                   
+                    <a target="_blank" style="max-width: 300px;background: #d3a371;width: 85%;margin-top: 10px;color: white;border: 1px solid #d3a371;" href="https://goo.gl/maps/iLNvdRW9PQNdb8Pd6" class="btn btn-dark">MAPA</a>
+                </p>
+            </div>
+            <div style="padding: 20px;" class="col-md-4">
+                <h2 class="nazwaPodsekcji"><i class="far fa-calendar"></i> Kiedy?</h2>
+                <p class="trescPodsekcji">
+                    07 GRUDNIA 2022 R.<br>
+                    <strong style="margin-top: 15px;display: block;margin-bottom: -15px;">Dodaj do kalendarza</strong><br>
+                    <a  style="max-width: 300px;background: #0081ff;width: 85%;margin-top: 10px;color: white;border: 1px solid #0081ff;" class="btn btn-dark" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MjBkamw4bHY1aG1qZnBiY3N1NXQ0bnFoYWYgaWJtYnVzaW5lc3NwYXJ0bmVyYWNhZGVteUBt&tmsrc=ibmbusinesspartneracademy%40gmail.com">Google Calendar</a><br>
+                    <a style="max-width: 300px;background: #006fdd;width: 85%;margin-top: 10px;color: white;border: 1px solid #006fdd;" class="btn btn-dark" href="https://akademiapartnerowhandlowych.pl/Nowoczesne_technologie_IBM_na_2023_rok.ics">Outlook</a>
+                </p>
+               
+            </div>
+            <div style="padding: 20px;" class="col-md-4">
+                <h2 class="nazwaPodsekcji"><i class="far fa-envelope"></i> Kontakt</h2>
+                <p class="trescPodsekcji"> 
+                    <a href="mailto:monika.kaminska@pl.ibm.com">monika.kaminska@pl.ibm.com</a>
+                </p>
+            </div>
+            
+         </div>
+    </div>
+    
+</section>
+<style>
+.sekcjaAgenda {
+    background: #001534;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.agenda-content {
+    text-align: left;
+    font-size: 14px;
+}
+.naglMargin {
+    background: #fff !important;
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+padding-left: 10px !important;
+margin-top: 0px !important;
+color: #001534 !important;
+}
+.ico1 {
+    font-size: 13px;
+    color: #1b3b7a;
+    position: relative;
+    top: 1px;
+}
+    .sekcjaAgenda .naglowekSekcji{
+        color: white;
+letter-spacing: 0;
+font-weight: bold;
+text-align: center;
+letter-spacing: .326em;
+text-transform: uppercase;
+font-size: 21px;
+    
+    }
+@media screen and (max-width: 600px) {
+.naglMargin {
+    background: #fff !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    margin-top: 0px !important;
+    color: #001534 !important;
+}
+}
+</style>
+<section class="sekcjaAgenda" id="sekcjaAgenda">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="naglowekSekcji">Agenda</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div id="agenda-pre"></div>
+                <div id="agenda">
+                    <div style="background: #0070c0 !important; border-radius: 0px 40px; padding: 0;" class="text-center agenda-status-intransit">
+                        <p class="agenda-status text-tight " style="margin: 0;background: #d3a371;border-radius: 8px;padding: 7px;">07 grudnia 2022<br>
+                            
+                    </div>
+                    <div style="border: none;max-width: 600px;margin: auto;" class="agenda-list">
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">16:30 - 16:35<span>07.12.2022</span> </div>
+                            <div class="agenda-content naglMargin" style=""><strong>Powitanie</strong></div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">16:35 - 16:50<span>07.12.2022</span> </div>
+                            <div class="agenda-content">IBM Ecosystem: The market creator</div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">16:50 - 17:06<span>07.12.2022</span> </div>
+                            <div class="agenda-content">ESG - 3 słowa w temacie raportowania od IBM i jak na tym zarabiać?
+                                
+                            </div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">17:05 - 17:15<span>07.12.2022</span> </div>
+                            <div class="agenda-content">Zarządzanie zasobami i wydajnością plikacji biznesowych
+                                
+                            </div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">17:15 - 17:30<span>07.12.2022</span> </div>
+                            <div class="agenda-content">Sztuczna inteligencja - czego możemy się spodziewać teraz i w przyszłości - rozwój oferty Data & AI
+                                 
+                            </div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">17:30 - 18:00<span>07.12.2022</span> </div>
+                            <div class="agenda-content">Jak działać w obliczu nowych wyzwań w zakresie bezpieczeństwa 
+                               
+                            </div>
+                        </div>
+                       
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">18:00 - 18:15<span>07.12.2022</span> </div>
+                            <div class="agenda-content naglMargin"><strong>Zakończenie</strong>
+                               
+                            </div>
+                        </div>
+                        <div class="agenda-item">
+                            <div class="agenda-icon status-intransit"> <i class="ico1 fas fa-user-alt"></i> </div>
+                            <div class="agenda-date">18:15 - 21:00<span>07.12.2022</span> </div>
+                            <div class="agenda-content naglMargin"><strong>Bankiet</strong>
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                </main><!-- #main -->
+	        </div><!-- #primary -->
+        </div><!-- #content -->
+<style>
+    footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #00007c;
+        text-align: center;
+    }
+</style>
+<footer>
+    <div class=" col-md-12 clearfix">
+        <div class="col-md-12"> <img src="http://dev.akademiapartnerowhandlowych.pl/img/logo.png" style="max-width: 250px; margin: auto;"> </div>
+        <!-- .site-info --> 
+    </div>
+</footer>
+<!-- #colophon -->
+</div>
+<!-- #page --> 
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+
+
+<!-- Chatbot IBM -->
+
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "350e75ab-c70d-46f5-b9c2-8b3864452ec5", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "feed6012-1e65-4a91-a937-2e2852b6b622", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+
+
+
+
+</body></html>
