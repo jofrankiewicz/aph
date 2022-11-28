@@ -1,0 +1,358 @@
+.CustomPanelHome__ButtonText {
+    margin-left: 10px !important;
+
+}
+
+.CustomPanelHome__Button>svg {
+    margin-right: 10px !important;
+}
+
+.CustomPanelHome__ButtonContainer {
+    justify-content: space-evenly !important;
+    align-content: space-evenly !important;
+    flex-wrap: wrap !important;
+    display: inherit !important;
+    padding: 5px 5px 5px 5px !important
+}
+
+.CustomPanelHome__ButtonText {
+    margin-left: 10px !important;
+
+}
+
+.CustomPanelHome__Button {
+
+    border: 1px solid #08BDBA !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 32px !important;
+    width: max-content !important;
+    height: 40px !important;
+    color: #08BDBA !important;
+    background-color: #F6F6F6 !important;
+    justify-content: space-evenly !important;
+    align-content: space-evenly !important;
+    flex-wrap: wrap !important;
+    padding: 1rem !important;
+    margin: 0.5rem 5rem 0.5rem 0.5rem !important;
+    font-weight: bold !important;
+    display: flex !important;
+    font-size: 16px !important;
+
+}
+
+.CustomPanelHome__ButtonChat {
+    margin: -0.5rem 0rem -1rem -2rem !important;
+}
+
+.CustomPanelHome__CloudText {
+    font-size: 20px !important;
+    position: absolute !important;
+    top: 45% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.CustomPanelHome__Icongreeting {
+    /* position: absolute !important; */
+    width: 247px !important;
+    margin-top: -35% !important;
+}
+
+.CustomPanelHome__Maingreeting {
+    margin: -16rem 1rem 1rem 1rem !important;
+    font-size: 20px !important
+}
+
+.CustomPanelHome_Textgreeting {
+    margin-top: -5rem !important;
+    font-size: 18px !important;
+    font-weight: 70 !important;
+}
+
+#WACContainer.WACContainer .WACHeader {
+    color: white !important;
+    background: #08BDBA !important
+}
+
+#WACContainer.WACContainer .ibm-web-chat--reset-styles>div {
+    display: flex !important;
+
+}
+
+#WACContainer.WACContainer .WACHomeScreenModern__bodyWrapper {
+    background-color: #F6F6F6;
+}
+
+#WACContainer.WACContainer .WACHomeScreenModern.WACHomeScreenModern--hydrationComplete .WACHomeScreenModern__customContent--animation {
+    margin-top: -6rem !important;
+}
+
+#WACContainer.WACContainer .WACHomeScreenModern__greeting {
+    font-size: 22px !important;
+    font-weight: 70 !important;
+}
+
+.WACHomeScreenModern__content .CustomPanelHome__Button>svg {
+
+
+    /* margin-left: -1rem !important; */
+    align-self: left;
+
+}
+
+.item-card {
+    width: 100% !important;
+    /* important */
+    display: flex !important;
+    /* important */
+    align-items: stretch !important;
+    justify-content: space-around !important;
+    margin-top: 0.8rem !important
+}
+
+.list-group {
+    --bs-list-group-color: #212529;
+    --bs-list-group-bg: #fff;
+    --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+    --bs-list-group-border-width: 1px;
+    --bs-list-group-border-radius: 0.375rem;
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: #495057;
+    --bs-list-group-action-hover-color: #495057;
+    --bs-list-group-action-hover-bg: #f8f9fa;
+    --bs-list-group-action-active-color: #212529;
+    --bs-list-group-action-active-bg: #e9ecef;
+    --bs-list-group-disabled-color: #6c757d;
+    --bs-list-group-disabled-bg: #fff;
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg: #0d6efd;
+    --bs-list-group-active-border-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
+.card-border {
+    background-color: #CFCFCF !important;
+    width: 8px !important;
+    border-radius: 16px 0px 0px 16px !important;
+    min-height: 100% !important;
+    color: #393939 !important
+}
+
+.card-border-blue {
+    background-color: #08BDBA !important;
+    width: 8px !important;
+    border-radius: 16px 0px 0px 16px !important;
+    min-height: 100% !important;
+    color: #08BDBA !important
+}
+
+.custom-card-body {
+    border-radius: 0px 16px 16px 0px !important;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15) !important;
+    background-color: #D9FBFB !important;
+    width: 18rem !important;
+    padding: 1rem !important;
+}
+
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+}
+
+.card-time {
+    color: #393939 !important;
+    width: 50% !important
+}
+
+.card-subtitle {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0;
+    display: flex !important;
+}
+
+.card-time-blue {
+    color: #079BB3 !important;
+    width: 50% !important
+}
+
+.card-text {
+    font-size: 14px !important;
+    margin-top: 1rem !important;
+
+}
+
+.speaker-name {
+    /* font-weight: bold !important; */
+}
+
+.speaker-role {
+    font-weight: 300 !important;
+}
+
+.CustomButtons {
+    margin-left: 1rem !important
+}
+
+#WACContainer.WACContainer .WACHomeScreenHeader button.WAC__button--ghost {
+    width: 32px;
+    height: 32px;
+    color: var(--WatsonAssistantChat-ACCENT-color-bw);
+    justify-content: center;
+    padding: 0;
+    visibility: hidden;
+}
+
+.WAC__button--selected {
+    background-color: #808080 !important;
+}
+
+.WAC__button--base.WAC__button--round {
+    background-color: #F6F6F6 !important;
+    color: #08BDBA !important;
+    margin: 0.5rem 5rem 0.5rem 0.5rem !important;
+    border: 1px solid #08BDBA !important;
+    border-radius: 32px !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+    width: max-content !important;
+    height: 40px !important;
+    padding: 1rem !important;
+    font-weight: bold !important;
+    justify-content: space-evenly !important;
+    align-content: space-evenly !important;
+    flex-wrap: wrap !important;
+    display: flex;
+    font-size: 16px !important;
+
+}
+
+#WACContainer.WACContainer .WACHeader {
+    color: white !important;
+    background: #08BDBA !important
+}
+
+#WACContainer.WACContainer .ibm-web-chat--reset-styles>div {
+    display: flex !important;
+
+}
+
+#WACContainer.WACContainer .WACHomeScreenModern__bodyWrapper {
+    background-color: #F6F6F6;
+}
+
+#WACContainer.WACContainer .WACHomeScreenModern.WACHomeScreenModern--hydrationComplete .WACHomeScreenModern__customContent--animation {
+    margin-top: -6rem !important;
+}
+
+#WACContainer.WACContainer .WACHomeScreenModern__greeting {
+    font-size: 22px !important;
+    font-weight: 70 !important;
+}
+
+.WACHomeScreenModern__content .CustomPanelHome__Button>svg {
+
+
+    /* margin-left: -1rem !important; */
+    align-self: left;
+
+}
+
+#WACContainer.WACContainer .CustomButton:hover:not(.CustomButton--selected):not(:disabled) {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#WACContainer.WACContainer .WACHomeScreenHeader .WACHeader {
+    background: var(--WatsonAssistantChat-HOME_SCREEN-background);
+    border: none;
+    background-color: #F6F6F6 !important;
+}
+
+#WACContainer.WACContainer .WACHomeScreenHeader .WACHeader__LeftButtons {
+    flex: 1;
+    justify-content: flex-start !important;
+}
+
+/* WACHeader__Buttons WACHeader__LeftButtons */
+
+#WACContainer.WACContainer button.WAC__button--secondary {
+    color: #08BDBA !important;
+    border: 2px solid transparent;
+    background: #F6F6F6 !important;
+}
+
+#WACContainer.WACContainer button.WAC__button--secondary {
+    color: #08BDBA !important;
+    border: 2px solid transparent;
+    background: #F6F6F6 !important;
+    background-repeat: repeat;
+    background-image: none;
+    background-size: auto;
+    background-image: url(assets/left-arrow.svg) !important;
+    background-size: contain !important;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px !important;
+    width: 20px !important;
+    align-content: flex-start !important;
+    margin-right: auto !important;
+    justify-content: space-between !important;
+    background-repeat: no-repeat !important;
+    padding-left: 15px !important;
+    font-size: 14px !important;
+}
+
+
