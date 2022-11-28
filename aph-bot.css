@@ -22,12 +22,12 @@
 
 .CustomPanelHome__Button {
 
-    border: 1px solid #08BDBA !important;
+    border: 1px solid #001534 !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
     border-radius: 32px !important;
     width: max-content !important;
     height: 40px !important;
-    color: #08BDBA !important;
+    color: #001534 !important;
     background-color: #F6F6F6 !important;
     justify-content: space-evenly !important;
     align-content: space-evenly !important;
@@ -71,7 +71,7 @@
 
 #WACContainer.WACContainer .WACHeader {
     color: white !important;
-    background: #08BDBA !important
+    background: #C2966B !important
 }
 
 #WACContainer.WACContainer .ibm-web-chat--reset-styles>div {
@@ -80,7 +80,7 @@
 }
 
 #WACContainer.WACContainer .WACHomeScreenModern__bodyWrapper {
-    background-color: #F6F6F6;
+    background-color: #C2966B !important;
 }
 
 #WACContainer.WACContainer .WACHomeScreenModern.WACHomeScreenModern--hydrationComplete .WACHomeScreenModern__customContent--animation {
@@ -150,21 +150,21 @@
     width: 8px !important;
     border-radius: 16px 0px 0px 16px !important;
     min-height: 100% !important;
-    color: #393939 !important
+    color: #001534 !important
 }
 
 .card-border-blue {
-    background-color: #08BDBA !important;
+    background-color: #001534 !important;
     width: 8px !important;
     border-radius: 16px 0px 0px 16px !important;
     min-height: 100% !important;
-    color: #08BDBA !important
+    color: #001534 !important
 }
 
 .custom-card-body {
     border-radius: 0px 16px 16px 0px !important;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15) !important;
-    background-color: #D9FBFB !important;
+    background-color: #ecd8c5 !important;
     width: 18rem !important;
     padding: 1rem !important;
 }
@@ -225,7 +225,7 @@
 }
 
 .card-time-blue {
-    color: #079BB3 !important;
+    color: #001534 !important;
     width: 50% !important
 }
 
@@ -264,7 +264,7 @@
     background-color: #F6F6F6 !important;
     color: #08BDBA !important;
     margin: 0.5rem 5rem 0.5rem 0.5rem !important;
-    border: 1px solid #08BDBA !important;
+    border: 1px solid #001534 !important;
     border-radius: 32px !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
     width: max-content !important;
@@ -281,7 +281,7 @@
 
 #WACContainer.WACContainer .WACHeader {
     color: white !important;
-    background: #08BDBA !important
+    background: #C2966B !important
 }
 
 #WACContainer.WACContainer .ibm-web-chat--reset-styles>div {
@@ -318,7 +318,7 @@
 #WACContainer.WACContainer .WACHomeScreenHeader .WACHeader {
     background: var(--WatsonAssistantChat-HOME_SCREEN-background);
     border: none;
-    background-color: #F6F6F6 !important;
+    background-color: #C2966B !important;
 }
 
 #WACContainer.WACContainer .WACHomeScreenHeader .WACHeader__LeftButtons {
@@ -329,19 +329,19 @@
 /* WACHeader__Buttons WACHeader__LeftButtons */
 
 #WACContainer.WACContainer button.WAC__button--secondary {
-    color: #08BDBA !important;
+    color: #001534 !important;
     border: 2px solid transparent;
     background: #F6F6F6 !important;
 }
 
 #WACContainer.WACContainer button.WAC__button--secondary {
-    color: #08BDBA !important;
+    color: #001534 !important;
     border: 2px solid transparent;
-    background: #F6F6F6 !important;
+ 
     background-repeat: repeat;
     background-image: none;
     background-size: auto;
-    background-image: url(assets/left-arrow.svg) !important;
+  
     background-size: contain !important;
     cursor: pointer;
     display: inline-block;
@@ -356,3 +356,6 @@
 }
 
 
+#WACContainer.WACContainer .WACHomeScreenHeader .WACHeader__BackButton {
+    background-color: #C2966B !important;
+}
